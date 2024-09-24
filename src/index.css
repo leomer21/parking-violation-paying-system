@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.firstPage {
+  background-image: url("https://i.ibb.co/7bDvPxk/parking-lot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-title {
+  color: #fa551d;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.completion {
+  background-image: url("https://cityparkmanagement.com/wp-content/uploads/2024/01/AdobeStock-kjzMV5wbKN.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
